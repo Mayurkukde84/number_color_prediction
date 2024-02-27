@@ -14,8 +14,8 @@ const GameDashboard = () => {
           <CountdownTimer />
         </div>
       </div>
-      <p className="mt-5 mb-2 font-bold w-full bg-gray-500 text-black p-1 rounded-lg">Select Color</p>
-      <div className="flex justify-between  items-center gap-4 text-white">
+      <p className="mt-10   font-bold w-full bg-gray-500 text-black p-1 rounded-lg">Select Color</p>
+      <div className="flex justify-between  items-center gap-4 text-white mt-5">
         <div className="bg-red-700 flex items-center justify-center w-1/3 h-[4rem] ">
           join red
         </div>
