@@ -9,7 +9,7 @@ const SuperAdmin = () => {
         <p className="">Super Admin ID:114552</p>
         <p>Total :114552</p>
       </div>
-      <ButtonUI onClick={()=>navigate("superadmin/admin/1")}  >Recharge ADMIN</ButtonUI>
+      <ButtonUI onClick={()=>navigate("/superadmin/admin/1")}  >Recharge ADMIN</ButtonUI>
       <ButtonUI onClick={()=>navigate("/superadmin/user/1")} >Recharge USER</ButtonUI>
       <ButtonUI onClick={()=>navigate("/paymenthistory")} >Recharge HISTORY </ButtonUI>
       <ButtonUI onClick={()=>navigate("/signup")} >Create ADMIN</ButtonUI>
